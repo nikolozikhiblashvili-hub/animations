@@ -1,0 +1,106 @@
+body{
+    font-family: "Inter", sans-serif;
+   
+}
+.adidas{
+    width:400px;
+    height: 280px;
+    border-radius: 10px;
+}
+.main{
+   padding: 30px;
+    display: flex;
+ 
+    flex-direction: column;
+    position: relative;
+    top: -30px;
+}
+.nike{
+  
+    height: 485px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  8px 8px 50px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.groupstar{
+    display: flex;
+    align-items: center;
+   position: relative;
+   top: -20px;
+    gap: 10px;
+}
+.starnumb{
+   background-color: rgb(229, 240, 123);
+   width: 40px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 3px;
+}
+svg{
+    width: 20px;
+    height: 20px;
+  
+}
+.nikep{
+    font-size: x-large;
+    font-weight: bold;
+}
+.dolar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    top: -40px;
+}
+.dolar1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.dolar2{
+    text-decoration: line-through;
+    color: gray;
+    position: relative;
+    top: 8px;
+}
+button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   width: 170px;
+   height: 50px;
+   font-size: 18px;
+   background-color: rgb(0, 0, 59);
+   color: white;
+   border: none;
+   border-radius: 7px;
+   position: relative;
+   left: 30px;
+  
+}
+.sale{
+position: absolute;
+top: 29px;
+left: 531px;
+background-color: black;
+color: white;
+width: 183px;
+height: 30px;
+clip-path: polygon(16% 0, 68% 0, 85% 100%, 0 100%);
+transform: rotate(-45deg);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+

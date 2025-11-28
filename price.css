@@ -1,0 +1,133 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+main{
+display: flex;
+    
+   flex-wrap: wrap;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    line-height: 2;
+}
+ul{
+    position: relative;
+    top: -100px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.month{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    position: relative;
+    top: -40px;
+}
+.dolar{
+    font-size:60px;
+    position: relative;
+    top: -10px;
+}
+.price,.basic,.Plus{
+
+    width: 350px;
+    height: 420px;
+    border: 1px solid rgb(108, 108, 108);
+   margin-top: 50px;
+   background-color: white;
+   border-radius: 5px;
+  
+    
+}
+
+span{
+    color: skyblue;
+  
+  padding: 7px;
+}
+.button{
+    width: 300px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 162, 255);
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    position: relative;
+    top: -18px;
+    left: 24px;
+    cursor: pointer;
+   
+}
+.button2{
+    width: 300px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 162, 255);
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    position: relative;
+    top: -50px;
+    left: 24px;
+    cursor: pointer;
+    
+  
+   
+}
+.button3{
+    width: 300px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 162, 255);
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    position: relative;
+    top: -82px;
+    left: 24px;
+    cursor: pointer;
+   
+}
+.price:hover, .basic:hover, .Plus:hover {
+   border: 4px solid blue;
+    transform: scale(1.05);
+   
+}
+.buuton:hover{
+    background-color: blue;
+    color: white;
+}
+.price{
+    animation:  identifier 3s ease-in-out;
+}
+.basic{
+    animation: basic 3s ease-in-out;
+}
+.Plus{
+    animation: Plus 3s ease-in-out;
+}
+@keyframes identifier {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes basic {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes Plus {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
