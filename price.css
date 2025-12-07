@@ -85,9 +85,8 @@ span{
     border: 1px solid skyblue;
     position: relative;
     top: -82px;
-    left: 24px;
-    cursor: pointer;
-   
+    left: 24px;    
+    cursor: pointer;     
 }
 .price:hover, .basic:hover, .Plus:hover {
    border: 4px solid blue;
